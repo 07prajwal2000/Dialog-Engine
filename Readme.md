@@ -75,3 +75,5 @@ This repo is open to contributions. PRs from anyone is accepted if it a valid fe
 	}
 ]
 ```
+- Create a new instance of Engine class using `Engine.FromJson("file_path")`. This will start the engine and you can call `engine.Next()` to move to next instance.
+- To get more clarity checkout the demos folder.
