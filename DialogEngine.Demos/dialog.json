@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "type": 1,
+    "title": "Hello prajwal",
+    "description": "",
+    "next": 2
+  },
+  {
+    "id": 2,
+    "type": 1,
+    "next": 3,
+    "title": "Hello Shop keeper"
+  },
+  {
+    "id": 3,
+    "next": 4,
+    "type": 1,
+    "title": "So, what's up?"
+  },
+  {
+    "next": 5,
+    "id": 4,
+    "type": 1,
+    "title": "I want to buy some items? Any interesting items for me?"
+  },
+  {
+    "next": 6,
+    "id": 5,
+    "type": 1,
+    "title": "Yes sure, here are the list of items you can buy."
+  },
+  {
+    "id": 6,
+    "type": 2,
+    "nodes": [
+      {
+        "title": "Apple"
+      },
+      {
+        "title": "Orange"
+      },
+      {
+        "title": "Gun",
+        "next": 10
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": 1,
+    "title": "You choose gun. Hmm maybe you're a sharp shooter or a hunter.",
+    "next": 11
+  },
+  {
+    "id": 11,
+    "type": 1,
+    "title": "Maybe, my friends tell i'm a sharp shooter when we go for hunting",
+    "next": 12
+  },
+  {
+    "id": 12,
+    "type": 1,
+    "title": "So can I join with you for hunting?",
+    "next": 13
+  },
+  {
+    "id": 13,
+    "type": 2,
+    "nodes": [
+      {
+        "next": 14,
+        "title": "Yes"
+      },
+      {
+        "next": 15,
+        "title": "No"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": 1,
+    "title": "Yes sure you can join with us. I will call you when we go."
+  },
+  {
+    "id": 15,
+    "type": 1,
+    "title": "Sorry, Me and my friends go for a private place for hunting."
+  }
+]
